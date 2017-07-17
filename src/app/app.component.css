@@ -1,0 +1,151 @@
+/* CONTENERDOR PRINCIPAL */
+md-sidenav-container {
+  background-color: #efefef;
+  min-height: 100vh;
+}
+
+/* PANEL IZQUIEDO */
+md-sidenav {
+  max-width: 230px;
+  box-shadow: 3px 0 6px rbgba(0 , 0, 0, .24);
+}
+
+.top-user {
+  display: flex;
+  background-color: #2535a8;
+  color: white;
+  padding: 1.7em 0.5em 0.5em 0.5em;
+  height: 7em;
+  box-shadow: 0px 3px 13px -3px rgba(0,0,0,0.75);
+}
+
+.top-user img {
+  border: 2px solid white;
+  border-radius: 40px;
+  height: 70px;
+  margin-bottom: 0.7em;
+}
+
+.top-user md-toolbar-row {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.top-user md-toolbar-row span {
+  display: flex;
+  width: 100%;
+  height: 1.4em;
+  align-items: center;
+}
+
+.top-user md-toolbar-row span:last-child {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.top-user md-toolbar-row span:last-child md-icon {
+  margin-top: 8px;
+  margin-left: -3px;
+  font-size: 14px;
+}
+
+.divier-menu {
+  fill: #737373;
+  display: block;
+  border-top: 1px solid;
+  margin: 0;
+  border-top-color: rgba(0,0,0,0.12);
+}
+
+.vertical-menu {
+  margin-top: 0.7em;
+}
+
+.vertical-menu .text-muted {
+  font-size: 12px;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  padding-left: 0.9em;
+  color: rgba(0,0,0,0.54);
+  font-weight: 400;
+  line-height: 1em;
+  margin-bottom: 0.7em;
+}
+
+.vertical-menu-item {
+    color: #737373;
+    cursor: pointer;
+    display: block;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    padding-left: 0.6em;
+    text-align: left;
+    width: 100%;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.vertical-menu-item md-icon {
+  font-size: 18px;
+}
+
+.vertical-menu-item .icon-menu {
+  font-size: 18px;
+  padding-right: 0.4em;
+}
+
+.vertical-menu-item:hover {
+    background-color: #d6d6d6;
+}
+
+/* BARRA SUPERIOR */
+md-toolbar {
+  padding: 0; 
+}
+
+.hamburger.mat-button {
+  height: 100%;
+  margin: 0px;
+  padding: 0px; 
+}
+
+md-toolbar img {
+  height: 45px;
+  margin-right: 0.3em;
+}
+
+.toolbar-filler {
+  flex: 1 1 auto;
+}
+
+md-menu {
+  margin: 0.7em;
+}
+
+/* CONTENIDO */
+
+md-card {
+  margin: 20px;
+}
+
+.space-elemts {
+  margin-left: 0.8em;
+}
+
+.app-action {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+md-checkbox {
+   margin: 10px;
+}
+
+.tab-content {
+  padding: 1em;
+  min-height: 120px;
+}
